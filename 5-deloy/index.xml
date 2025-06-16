@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deploy AWS Elastic Beanstalk on AWS System Manager</title>
-    <link>https://workshop-aws-1-izqi-rfyakrgzc-thebaos-projects-ea7bcb18.vercel.app/5-deloy/</link>
+    <link>//localhost:1313/5-deloy/</link>
     <description>Recent content in Deploy AWS Elastic Beanstalk on AWS System Manager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://workshop-aws-1-izqi-rfyakrgzc-thebaos-projects-ea7bcb18.vercel.app/5-deloy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/5-deloy/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Deploy to Elastic Beanstalk from Visual Studio 2022 on AWS System Manager</title>
-    <link>https://workshop-aws-1-izqi-rfyakrgzc-thebaos-projects-ea7bcb18.vercel.app/5-deloy/5.2-creates3bucket/</link>
+    <link>//localhost:1313/5-deloy/5.2-creates3bucket/</link>
     <description>Recent content in Deploy to Elastic Beanstalk from Visual Studio 2022 on AWS System Manager</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://workshop-aws-1-izqi-rfyakrgzc-thebaos-projects-ea7bcb18.vercel.app/5-deloy/5.2-creates3bucket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/5-deloy/5.2-creates3bucket/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
