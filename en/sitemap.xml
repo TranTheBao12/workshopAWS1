@@ -119,19 +119,6 @@
                 href="https://tranthebao12.github.io/workshopAWS1/2-prerequiste/2.2-createiamrole/"
                 />
   </url><url>
-    <loc>https://tranthebao12.github.io/workshopAWS1/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://tranthebao12.github.io/workshopAWS1/vi/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tranthebao12.github.io/workshopAWS1/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/"
-                />
-  </url><url>
     <loc>https://tranthebao12.github.io/workshopAWS1/3-accessibilitytoinstances/3.2-private-instance/</loc>
     <lastmod>2025-05-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -143,6 +130,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tranthebao12.github.io/workshopAWS1/3-accessibilitytoinstances/3.2-private-instance/"
+                />
+  </url><url>
+    <loc>https://tranthebao12.github.io/workshopAWS1/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/</loc>
+    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="https://tranthebao12.github.io/workshopAWS1/vi/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tranthebao12.github.io/workshopAWS1/5-deloy/5.1-updateiamrole/5.1.2-createvpc-copy/"
                 />
   </url><url>
     <loc>https://tranthebao12.github.io/workshopAWS1/5-deloy/5.2-creates3bucket/</loc>
@@ -195,19 +195,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://tranthebao12.github.io/workshopAWS1/4-s3log/4.2-creates3bucket/"
-                />
-  </url><url>
-    <loc>https://tranthebao12.github.io/workshopAWS1/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/</loc>
-    <lastmod>2025-05-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="https://tranthebao12.github.io/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://tranthebao12.github.io/workshopAWS1/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/"
                 />
   </url><url>
     <loc>https://tranthebao12.github.io/workshopAWS1/3-accessibilitytoinstances/3.3-private-instance/</loc>

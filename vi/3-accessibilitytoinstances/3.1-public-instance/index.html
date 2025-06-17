@@ -14,21 +14,21 @@
     <title>Tạo S3 Bucket :: AWS System Manager</title>
 
     
-    <link href="/workshopAWS1/css/nucleus.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hybrid.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/featherlight.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/auto-complete.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/theme.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hugo-theme.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/nucleus.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/hybrid.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/featherlight.min.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/auto-complete.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme.css?1750182893" rel="stylesheet">
+    <link href="/workshopAWS1/css/hugo-theme.css?1750182893" rel="stylesheet">
     
-    <link href="/workshopAWS1/css/theme-workshop.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme-workshop.css?1750182893" rel="stylesheet">
     
     
 
-    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750101398"></script>
+    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750182893"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750101398"></script>
-<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750182893"></script>
+<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750182893"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/tranthebao12.github.io\/workshopAWS1\/\/vi";
     
 </script>
-<script type="text/javascript" src="/workshopAWS1/js/search.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/search.js?1750182893"></script>
 
 
     
@@ -210,34 +210,6 @@
         ">
       <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/">
            <b> 2.1.2 </b> Cài đặt AWS Toolkit cho Visual Studio
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/" title="Thêm vie.traineddata vào tessdata" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/">
-           <b> 2.1.3 </b> Thêm vie.traineddata vào tessdata
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1032,27 +1004,20 @@
 
 	<h3 id="bước-1-tạo-một-s3-bucket">Bước 1: Tạo một S3 Bucket</h3>
 <ol>
-<li>
-<p>Truy cập <a href="https://console.aws.amazon.com/">AWS Management Console</a> và vào dịch vụ <strong>S3</strong>.</p>
-</li>
-<li>
-<p>Nhấn <strong>Create bucket</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh8.png" alt="AWS Explorer"></p>
-</li>
-<li>
-<p>Nhập các thông tin sau:</p>
+<li>Truy cập <a href="https://console.aws.amazon.com/">AWS Management Console</a> và vào dịch vụ <strong>S3</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A7.png" alt="AWS Explorer"></li>
+<li>Nhấn <strong>Create bucket</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh8.png" alt="AWS Explorer"></li>
+<li>Nhập các thông tin sau:
 <ul>
 <li><strong>Bucket name</strong>: <code>imagetovideoweb-demo-&lt;UNIQUE-ID&gt;</code> (ví dụ: <code>imagetovideoweb-demo-20250608</code>)</li>
-<li><strong>Region</strong>: <code>us-east-1</code> (N. Virginia)</li>
+<li><strong>Region</strong>: <code>us-east-1</code> (N. Virginia)
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A8.png" alt="AWS Explorer"></li>
 </ul>
 </li>
-<li>
-<p>Trong phần <strong>Block Public Access</strong>, bỏ chọn <strong>Block all public access</strong> (chỉ áp dụng cho demo, trong thực tế nên sử dụng IAM để kiểm soát truy cập).</p>
-</li>
-<li>
-<p>Nhấn <strong>Create bucket</strong> để hoàn tất.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh9.png" alt="AWS Explorer"></p>
-</li>
+<li>Trong phần <strong>Block Public Access</strong>, bỏ chọn <strong>Block all public access</strong> (chỉ áp dụng cho demo, trong thực tế nên sử dụng IAM để kiểm soát truy cập).
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A9.png" alt="AWS Explorer"></li>
+<li>Nhấn <strong>Create bucket</strong> để hoàn tất.</li>
 </ol>
 
 <div class="notices note" ><p>Cấu hình này chỉ dùng để trình diễn. Trong môi trường triển khai thực tế, bạn nên kiểm soát quyền truy cập thông qua IAM thay vì cho phép truy cập công khai.</p>
@@ -1143,22 +1108,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1537,19 +1486,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/workshopAWS1/js/clipboard.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/jquery.sticky.js?1750101398"></script>
-    <script src="/workshopAWS1/js/featherlight.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/highlight.pack.js?1750101398"></script>
+    <script src="/workshopAWS1/js/clipboard.min.js?1750182893"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750182893"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750182893"></script>
+    <script src="/workshopAWS1/js/jquery.sticky.js?1750182893"></script>
+    <script src="/workshopAWS1/js/featherlight.min.js?1750182893"></script>
+    <script src="/workshopAWS1/js/highlight.pack.js?1750182893"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750101398"></script>
-    <script src="/workshopAWS1/js/learn.js?1750101398"></script>
-    <script src="/workshopAWS1/js/hugo-learn.js?1750101398"></script>
+    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750182893"></script>
+    <script src="/workshopAWS1/js/learn.js?1750182893"></script>
+    <script src="/workshopAWS1/js/hugo-learn.js?1750182893"></script>
 
-    <link href="/workshopAWS1/mermaid/mermaid.css?1750101398" rel="stylesheet" />
-    <script src="/workshopAWS1/mermaid/mermaid.js?1750101398"></script>
+    <link href="/workshopAWS1/mermaid/mermaid.css?1750182893" rel="stylesheet" />
+    <script src="/workshopAWS1/mermaid/mermaid.js?1750182893"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

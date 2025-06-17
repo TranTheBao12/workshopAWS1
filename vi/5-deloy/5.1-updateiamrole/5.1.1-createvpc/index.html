@@ -14,21 +14,21 @@
     <title>Tạo IAM Role cho EC2 Instance Profile :: AWS System Manager</title>
 
     
-    <link href="/workshopAWS1/css/nucleus.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hybrid.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/featherlight.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/auto-complete.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/theme.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hugo-theme.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/nucleus.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/hybrid.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/featherlight.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/auto-complete.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/hugo-theme.css?1750182894" rel="stylesheet">
     
-    <link href="/workshopAWS1/css/theme-workshop.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme-workshop.css?1750182894" rel="stylesheet">
     
     
 
-    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750101398"></script>
+    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750182894"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750101398"></script>
-<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750182894"></script>
+<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750182894"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/tranthebao12.github.io\/workshopAWS1\/\/vi";
     
 </script>
-<script type="text/javascript" src="/workshopAWS1/js/search.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/search.js?1750182894"></script>
 
 
     
@@ -210,34 +210,6 @@
         ">
       <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/">
            <b> 2.1.2 </b> Cài đặt AWS Toolkit cho Visual Studio
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/" title="Thêm vie.traineddata vào tessdata" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/">
-           <b> 2.1.3 </b> Thêm vie.traineddata vào tessdata
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1040,40 +1012,28 @@
 <p>Đây là <strong>role</strong> mà các <strong>instance EC2</strong> trong môi trường <strong>Elastic Beanstalk</strong> của bạn sẽ đảm nhiệm. Nó cần các quyền tối thiểu để hoạt động trong môi trường Elastic Beanstalk, bao gồm việc giao tiếp với các dịch vụ AWS khác như S3, CloudWatch, v.v.</p>
 <h4 id="các-bước">Các bước:</h4>
 <ol>
-<li>
-<p><strong>Đăng nhập vào AWS Management Console</strong> và điều hướng đến dịch vụ <strong>IAM (Identity and Access Management)</strong>.</p>
-</li>
-<li>
-<p>Trong thanh điều hướng bên trái, chọn <strong>Roles</strong>.</p>
-</li>
-<li>
-<p>Nhấp vào nút <strong>Create role</strong>.</p>
-</li>
-<li>
-<p>Tại mục <strong>Select type of trusted entity</strong>, chọn <strong>AWS service</strong>.</p>
-</li>
-<li>
-<p>Tại mục <strong>Choose a use case</strong>, chọn <strong>EC2</strong>, sau đó nhấp <strong>Next</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh12.png" alt="Giao diện cây thư mục trong S3 Console"></p>
-</li>
-<li>
-<p><strong>Thêm permissions:</strong></p>
+<li><strong>Đăng nhập vào AWS Management Console</strong> và điều hướng đến dịch vụ <strong>IAM (Identity and Access Management)</strong>.</li>
+<li>Trong thanh điều hướng bên trái, chọn <strong>Roles</strong>.</li>
+<li>Nhấp vào nút <strong>Create role</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A14.png" alt="Giao diện cây thư mục trong S3 Console"></li>
+<li>Tại mục <strong>Select type of trusted entity</strong>, chọn <strong>AWS service</strong>.</li>
+<li>Tại mục <strong>Choose a use case</strong>, chọn <strong>EC2</strong>, sau đó nhấp <strong>Next</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh12.png" alt="Giao diện cây thư mục trong S3 Console"></li>
+<li><strong>Thêm permissions:</strong>
 <ul>
-<li>Tìm kiếm và chọn policy <strong>AWSElasticBeanstalkWebTier</strong>.</li>
-<li>Tìm kiếm và chọn policy <strong>AWSElasticBeanstalkWorkerTier</strong> (nếu ứng dụng của bạn có thể sử dụng worker environment, mặc dù cho ứng dụng web thông thường thì WebTier thường là đủ, nhưng thêm vào sẽ an toàn hơn).</li>
-<li>Tìm kiếm và chọn policy <strong>AmazonS3FullAccess</strong> (hoặc một policy S3 tùy chỉnh với các quyền cụ thể hơn nếu bạn muốn hạn chế quyền truy cập S3).</li>
+<li>Tìm kiếm và chọn policy <strong>AWSElasticBeanstalkWebTier</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A15.png" alt="Giao diện cây thư mục trong S3 Console"></li>
+<li>Tìm kiếm và chọn policy <strong>AmazonS3FullAccess</strong> (hoặc một policy S3 tùy chỉnh với các quyền cụ thể hơn nếu bạn muốn hạn chế quyền truy cập S3).
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A16.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
-<li>
-<p>Nhấp <strong>Next</strong>.</p>
-</li>
-<li>
-<p><strong>Review và Create:</strong></p>
+<li>Nhấp <strong>Next</strong>.</li>
+<li><strong>Review và Create:</strong>
 <ul>
 <li>Đặt <strong>Role name</strong> (ví dụ: <code>ImageToVideoWeb-EC2-InstanceRole</code>).</li>
 <li>Kiểm tra lại các policy đã đính kèm.</li>
 <li>Nhấp <strong>Create role</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh13.png" alt="Giao diện cây thư mục trong S3 Console"></li>
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A17.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
 </ol>
@@ -1162,22 +1122,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1557,19 +1501,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/workshopAWS1/js/clipboard.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/jquery.sticky.js?1750101398"></script>
-    <script src="/workshopAWS1/js/featherlight.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/highlight.pack.js?1750101398"></script>
+    <script src="/workshopAWS1/js/clipboard.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/jquery.sticky.js?1750182894"></script>
+    <script src="/workshopAWS1/js/featherlight.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/highlight.pack.js?1750182894"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750101398"></script>
-    <script src="/workshopAWS1/js/learn.js?1750101398"></script>
-    <script src="/workshopAWS1/js/hugo-learn.js?1750101398"></script>
+    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750182894"></script>
+    <script src="/workshopAWS1/js/learn.js?1750182894"></script>
+    <script src="/workshopAWS1/js/hugo-learn.js?1750182894"></script>
 
-    <link href="/workshopAWS1/mermaid/mermaid.css?1750101398" rel="stylesheet" />
-    <script src="/workshopAWS1/mermaid/mermaid.js?1750101398"></script>
+    <link href="/workshopAWS1/mermaid/mermaid.css?1750182894" rel="stylesheet" />
+    <script src="/workshopAWS1/mermaid/mermaid.js?1750182894"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>

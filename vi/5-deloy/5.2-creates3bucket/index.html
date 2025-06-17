@@ -14,21 +14,21 @@
     <title>Triển khai (Deploy) lên Elastic Beanstalk từ Visual Studio 2022 :: AWS System Manager</title>
 
     
-    <link href="/workshopAWS1/css/nucleus.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hybrid.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/featherlight.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/auto-complete.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/theme.css?1750101398" rel="stylesheet">
-    <link href="/workshopAWS1/css/hugo-theme.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/nucleus.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/fontawesome-all.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/hybrid.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/featherlight.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/perfect-scrollbar.min.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/auto-complete.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/atom-one-dark-reasonable.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme.css?1750182894" rel="stylesheet">
+    <link href="/workshopAWS1/css/hugo-theme.css?1750182894" rel="stylesheet">
     
-    <link href="/workshopAWS1/css/theme-workshop.css?1750101398" rel="stylesheet">
+    <link href="/workshopAWS1/css/theme-workshop.css?1750182894" rel="stylesheet">
     
     
 
-    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750101398"></script>
+    <script src="/workshopAWS1/js/jquery-3.3.1.min.js?1750182894"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -61,14 +61,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750101398"></script>
-<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/lunr.min.js?1750182894"></script>
+<script type="text/javascript" src="/workshopAWS1/js/auto-complete.js?1750182894"></script>
 <script type="text/javascript">
     
         var baseurl = "https:\/\/tranthebao12.github.io\/workshopAWS1\/\/vi";
     
 </script>
-<script type="text/javascript" src="/workshopAWS1/js/search.js?1750101398"></script>
+<script type="text/javascript" src="/workshopAWS1/js/search.js?1750182894"></script>
 
 
     
@@ -210,34 +210,6 @@
         ">
       <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.2-createpublicsubnet/">
            <b> 2.1.2 </b> Cài đặt AWS Toolkit cho Visual Studio
-          
-            <i class="fas fa-check read-icon"></i>
-          
-      </a>
-      
-              
-    </li>
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/" title="Thêm vie.traineddata vào tessdata" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/workshopAWS1/vi/2-prerequiste/2.1-createec2/2.1.3-createprivatesubnet/">
-           <b> 2.1.3 </b> Thêm vie.traineddata vào tessdata
           
             <i class="fas fa-check read-icon"></i>
           
@@ -1035,21 +1007,23 @@
 <h4 id="các-bước">Các bước:</h4>
 <ol>
 <li>
-<p>Trong Visual Studio, nhấp chuột phải vào dự án ASP.NET Core của bạn trong <strong>Solution Explorer</strong>.</p>
+<p>Trong Visual Studio, nhấp chuột phải vào dự án ASP.NET Core của bạn trong <strong>Solution Explorer</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A21.png" alt="Giao diện cây thư mục trong S3 Console"></p>
 </li>
 <li>
-<p>Chọn <strong>Publish to AWS Elastic Beanstalk&hellip;</strong>.</p>
+<p>Chọn <strong>Publish to AWS &hellip;</strong>.</p>
 <ul>
-<li>(Đảm bảo bạn đã đăng nhập và kết nối đúng tài khoản AWS trong AWS Explorer của Visual Studio trước khi thực hiện bước này.)</li>
+<li>(Đảm bảo bạn đã đăng nhập và kết nối đúng tài khoản AWS trong AWS Explorer của Visual Studio trước khi thực hiện bước này.)
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A21.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
 <li>
 <p>Hộp thoại <strong>Publish to Elastic Beanstalk</strong> sẽ xuất hiện. Cấu hình các mục sau:</p>
 <ul>
-<li><strong>Deployment Target:</strong> Chọn <strong>Create a new application environment</strong>.</li>
-<li><strong>Account Region:</strong> Chọn khu vực AWS mà bạn muốn triển khai (ví dụ: <code>US East (N. Virginia) us-east-1</code>).</li>
-<li>Nhấp <strong>Next</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh17.png" alt="Giao diện cây thư mục trong S3 Console"></li>
+<li><strong>Deployment Target:</strong> Chọn <strong>Elastic Beanstalk ON WINDOW</strong>.</li>
+<li><strong>APPLICATION NAME:</strong> Đặt tên  (ví dụ: <code>ImageToVideoWeb</code>).</li>
+<li>Nhấp <strong>EDIT</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A23.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
 <li>
@@ -1059,46 +1033,32 @@
 <li><strong>Environment Name:</strong> Nhập <code>ImageToVideoWeb-env</code>.</li>
 <li><strong>Platform:</strong>
 <ul>
-<li><strong>Environment type:</strong> Chọn <strong>Web server environment</strong>.</li>
 <li><strong>Platform:</strong> Chọn <strong>.NET on Windows Server</strong>.</li>
-<li><strong>Platform Branch:</strong> Chọn phiên bản Windows Server phù hợp (ví dụ: <code>Windows Server Core</code> hoặc <code>Windows Server full</code>).</li>
-<li><strong>Platform Version:</strong> Chọn phiên bản .NET (ví dụ: <code>.NET 8 (64bit Amazon Linux 2 / Windows Server 2022)</code>) hoặc phiên bản .NET 8 mới nhất được hỗ trợ.</li>
+<li><strong>Platform Branch:</strong> Chọn phiên bản Windows Server phù hợp (ví dụ: <code>Windows Server Core</code> hoặc <code>Windows Server full</code>).
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh19.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
-<li>Nhấp <strong>Next</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh19.png" alt="Giao diện cây thư mục trong S3 Console"></li>
 </ul>
 </li>
 <li>
 <p><strong>AWS Options:</strong></p>
 <ul>
-<li><strong>Instance type:</strong> Chọn <code>t3.micro</code> (đủ điều kiện Free Tier cho mục đích thử nghiệm).</li>
-<li><strong>EC2 Key pair:</strong> Chọn <code>ImageToVideoWeb-KeyPair</code> đã tạo ở bước 4.1.3.</li>
-<li><strong>EC2 security groups:</strong> Để mặc định hoặc tạo một nhóm bảo mật mới nếu cần các quy tắc tùy chỉnh.</li>
-<li><strong>Application Health Check URL:</strong> Để mặc định hoặc tùy chỉnh nếu ứng dụng của bạn có health check endpoint riêng.</li>
-<li><strong>Root Folder:</strong> Mặc định là <code>/</code> cho ứng dụng web.</li>
-<li><strong>Use Enhanced Health Reporting:</strong> Có thể bật hoặc tắt tùy nhu cầu giám sát.</li>
-<li><strong>Enable Rolling Deployments:</strong> Có thể bật hoặc tắt.</li>
-<li><strong>Service role:</strong> Chọn role đã tạo ở bước 4.1.2 (ví dụ: <code>ImageToVideoWeb-ServiceRole</code>).</li>
-<li><strong>Instance profile:</strong> Chọn role đã tạo ở bước 4.1.1 (ví dụ: <code>ImageToVideoWeb-EC2-InstanceRole</code>).</li>
-<li>Nhấp <strong>Next</strong>.
-<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh18.png" alt="Giao diện cây thư mục trong S3 Console"></li>
-</ul>
-<p><img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/anh20.png" alt="Giao diện cây thư mục trong S3 Console"></p>
+<li>
+<p><strong>Instance type:</strong> Chọn <code>t3.micro</code> (đủ điều kiện Free Tier cho mục đích thử nghiệm).</p>
 </li>
 <li>
-<p><strong>Application Options:</strong></p>
-<ul>
-<li><strong>Deployment bundle type:</strong> Chọn <strong>Full .NET Core deployment (Self-contained)</strong> nếu bạn muốn ứng dụng chứa tất cả các dependencies của .NET runtime. Chọn <strong>Framework-dependent deployment</strong> nếu bạn tin rằng .NET runtime đã được cài đặt sẵn trên instance hoặc bạn sẽ tự cài đặt nó. Với Elastic Beanstalk cho .NET trên Windows, Self-contained thường được khuyến nghị để đảm bảo môi trường đầy đủ.</li>
-<li>Các tùy chọn khác (<strong>Environment Variables</strong>, <strong>.NET Core Build and Publish Options</strong>) có thể cấu hình nếu cần.</li>
-<li>Nhấp <strong>Next</strong>.</li>
-</ul>
+<p><strong>EC2 Key pair:</strong> Chọn <code>ImageToVideoWeb-KeyPair</code> đã tạo ở bước 4.1.3.</p>
 </li>
 <li>
-<p><strong>Review:</strong></p>
-<ul>
-<li>Kiểm tra lại tất cả các cài đặt.</li>
-<li>Nhấp <strong>Publish</strong> để bắt đầu quá trình tạo ứng dụng và môi trường Elastic Beanstalk.</li>
+<p><strong>Service role:</strong> Chọn role đã tạo ở bước 4.1.2 (ví dụ: <code>ImageToVideoWeb-ServiceRole</code>).</p>
+</li>
+<li>
+<p><strong>Instance profile:</strong> Chọn role đã tạo ở bước 4.1.1 (ví dụ: <code>ImageToVideoWeb-EC2-InstanceRole</code>).</p>
+</li>
+<li>
+<p>Nhấp <strong>public</strong>.
+<img src="https://tranthebao12.github.io/workshopAWS1/images/2.prerequisite/A24.png" alt="Giao diện cây thư mục trong S3 Console"></p>
+</li>
 </ul>
 </li>
 </ol>
@@ -1186,22 +1146,6 @@
                     
                     
 
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1583,19 +1527,19 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/workshopAWS1/js/clipboard.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/jquery.sticky.js?1750101398"></script>
-    <script src="/workshopAWS1/js/featherlight.min.js?1750101398"></script>
-    <script src="/workshopAWS1/js/highlight.pack.js?1750101398"></script>
+    <script src="/workshopAWS1/js/clipboard.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/perfect-scrollbar.jquery.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/jquery.sticky.js?1750182894"></script>
+    <script src="/workshopAWS1/js/featherlight.min.js?1750182894"></script>
+    <script src="/workshopAWS1/js/highlight.pack.js?1750182894"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750101398"></script>
-    <script src="/workshopAWS1/js/learn.js?1750101398"></script>
-    <script src="/workshopAWS1/js/hugo-learn.js?1750101398"></script>
+    <script src="/workshopAWS1/js/modernizr.custom-3.6.0.js?1750182894"></script>
+    <script src="/workshopAWS1/js/learn.js?1750182894"></script>
+    <script src="/workshopAWS1/js/hugo-learn.js?1750182894"></script>
 
-    <link href="/workshopAWS1/mermaid/mermaid.css?1750101398" rel="stylesheet" />
-    <script src="/workshopAWS1/mermaid/mermaid.js?1750101398"></script>
+    <link href="/workshopAWS1/mermaid/mermaid.css?1750182894" rel="stylesheet" />
+    <script src="/workshopAWS1/mermaid/mermaid.js?1750182894"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
